@@ -1,7 +1,7 @@
 F# Bootcamp
 ===
 
-## What is F#?
+## [[What is F#]]?
 A functional first language that emphasizes writing code that applies functions to data. also compatible with object oriented paradigm.
 
 - It's as general purpose as C#.
@@ -11,7 +11,7 @@ A functional first language that emphasizes writing code that applies functions 
 - Significance of whitespace
  -  tabs forbidden
 	
-## What is functional programming?
+## What is [[functional programming]]?
 
 è un paradigma che utilizza le funzioni come livello astrazione principale inviece degli oggetti
 
@@ -21,14 +21,14 @@ immutable
 	
 	
 	
-## How to install F#, Visual Studio Code, and the Ionide extension
+## [[How to install F#, Visual Studio Code, and the Ionide extension|Setup]]
 fsharp.org
 
 visualstudiocode
 
 ionide
 	
-## Basics	
+## [[F# Basics]]
 - defining a variable 
   - let it's immutable: can't assign
  - let mutable it's mutable:	can assign with <-		
@@ -39,14 +39,14 @@ ionide
  - anonimous functions
 			
 		
-## Operators
+## [[Operators]]
 - pipline instead of parentesis to better understand the flow of transformation
 - data transformation
   -  Seq.map,Seq.filter, Seq.sort
 - pattern matching
 - parameter destructoring
 
-## Functional
+## [[Functional Concepts]]
 - partial application		
 	
 				f(x,y) -> x * (y + 1) 
@@ -61,7 +61,7 @@ ionide
 
 
 				
-## types	
+## [[Working With Types]]
  - Record types
 	 - container for set of value-pair
 	 - value equality
