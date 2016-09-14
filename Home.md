@@ -1,5 +1,4 @@
 F# Bootcamp
-===
 
 * [[What is F#]]?
 * What is [[functional programming]]?
