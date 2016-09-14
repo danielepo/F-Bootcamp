@@ -1,0 +1,8 @@
+- defining a variable 
+  - let it's immutable: can't assign
+ - let mutable it's mutable:	can assign with <-		
+ - collections are immutable:	the lists doesn't change
+ - explain the signature
+ - type inferace
+- defining functions
+ - anonimous functions
