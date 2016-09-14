@@ -1,0 +1,5 @@
+- pipline instead of parentesis to better understand the flow of transformation
+- data transformation
+  -  Seq.map,Seq.filter, Seq.sort
+- pattern matching
+- parameter destructoring
