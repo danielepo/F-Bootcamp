@@ -1,6 +1,6 @@
 F# Bootcamp
 
-* [[What is F#]]?
+* [[What is F#|What is Fsharp]]?
 * What is [[functional programming]]?
 * [[How to install F#, Visual Studio Code, and the Ionide extension|Setup]]
 * [[F# Basics]]
