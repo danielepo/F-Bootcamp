@@ -3,11 +3,11 @@ FSI is a REPL () that lets you run parts of your code without running the entire
 
 ### Exercise 
 * Open your command line console and type fsi
-* Type #help;;
+* Type `#help;;`
 * Do a sum operation
-  (+) operator
+  `(+)` operator
 * Do a print on the screen
-  printf
+  `printf`
 
 ## Defining a value
 * `let` keyword is the most used keyword, it definds a binding between a value an its representation in the program
