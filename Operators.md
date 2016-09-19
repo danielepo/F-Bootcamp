@@ -1,5 +1,9 @@
-- pipline instead of parentesis to better understand the flow of transformation
-- data transformation
-  -  Seq.map,Seq.filter, Seq.sort
-- pattern matching
-- parameter destructoring
+## Pipeline
+
+## Data Transformation
+
+As I said before, functions in F# are used to transform data..
+
+## Pattern Matching
+
+## Parameter Destruction
