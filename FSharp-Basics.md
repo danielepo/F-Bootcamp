@@ -27,3 +27,7 @@ FSI is a REPL () that lets you run parts of your code without running the entire
  - anonimous functions
 
 ## Modules Vs Namespaces
+
+## Expressions everywhere
+
+### Implicit return value
