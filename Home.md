@@ -4,6 +4,7 @@ F# Bootcamp
 * What is [[functional programming]]?
 * [[Configuring the Environment|Setup]]
 * [[F# Basics|FSharp Basics]]
+* [[Core Types]]
 * [[Operators]]
 * [[Functional Concepts]]
 * [[Working With Types]]
