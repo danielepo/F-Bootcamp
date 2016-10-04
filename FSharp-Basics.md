@@ -46,6 +46,31 @@ When you don’t explicitly name something (as when performing a simple calculat
  * inside a for loop
  * working with objects from the .Net Framework like Credentials
 
+* `use` F# provides a binding mechanism for types that implement the IDisposable interface in a way that’s similar to C#’s using statement. In F#, when you want the compiler to insert a call to an IDisposable object’s Dispose method, you can create a use binding with the use keyword. The Dispose method gets called whenever the binding is out of scope.
+```fsharp
+open System
+
+let createDisposable name =
+  printfn "creating: %s" name
+  { new IDisposable with
+    member x.Dispose() =printfn "disposing: %s" name
+  }
+
+let testDisposable() =
+  use root = createDisposable "outer"
+  for i in [1..2] do
+    use nested = createDisposable (sprintf "inner %i" i)
+    printfn "completing iteration %i" i
+  printfn "leaving function"
+```
+oppure
+```
+open System.IO
+let writeToFile filename buffer =
+  use fs = ③new FileStream(filename, FileMode.CreateNew, FileAccess.Write)
+  fs.Write(buffer, 0, buffer.Length)
+```
+ 
 ## Immutability
 one of the key features of fuctional languages over object oriented ones is that they aim to avoid side effects. Some languages like Haskell are said pure functional languages in that their approach to side effects is that you don't do any side effects, in fact, in order to do things that has side effects you have to use a particular construct that justifies the side effect while maintaining the purity of the language. F# on the other had is said to be an impure functional language in that it defaults to using immutable languages and avoiding side effects but you still can declare mutable bindings if you need to.
 What's the advantage of immutability?
@@ -57,12 +82,11 @@ What's the advantage of immutability?
 
 * `let` keyword to define a function. Why the same keyworkd? because funcions are values too!
   f(x) = 1 + x when x is 1 f(x) is 2 so f(x) is somewhat bound to the value x plus the value 1 for every x in the domain
-  
+
 ### explain the signature
  - type inferace
 - defining functions
  - anonimous functions
-
 
 
 ## Modules Vs Namespaces
