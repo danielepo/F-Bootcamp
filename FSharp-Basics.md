@@ -47,6 +47,7 @@ When you don’t explicitly name something (as when performing a simple calculat
  * working with objects from the .Net Framework like Credentials
 
 * `use` F# provides a binding mechanism for types that implement the IDisposable interface in a way that’s similar to C#’s using statement. In F#, when you want the compiler to insert a call to an IDisposable object’s Dispose method, you can create a use binding with the use keyword. The Dispose method gets called whenever the binding is out of scope.
+
 ```fsharp
 open System
 
@@ -64,7 +65,8 @@ let testDisposable() =
   printfn "leaving function"
 ```
 oppure
-```
+
+```fsharp
 open System.IO
 let writeToFile filename buffer =
   use fs = ③new FileStream(filename, FileMode.CreateNew, FileAccess.Write)
