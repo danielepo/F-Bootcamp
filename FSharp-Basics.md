@@ -30,13 +30,7 @@ When you don’t explicitly name something (as when performing a simple calculat
 * #time "on";;
   to enable the diplay of timing information and something more when the program prints to console
 
-### Exercise 
-* Open your command line console and type fsi
-* Type `#help;;`
-* Do a sum operation
-  `(+)` operator
-* Do a print on the screen
-  `printf`
+[[Excercise 1|Excercises]]
 
 ## Defining a value
 * `let` keyword is the most used keyword, it definds a binding between a value an its representation in the program
