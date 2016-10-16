@@ -27,3 +27,5 @@ type Person (id : System.Guid, name : string, age : int) =
   member x.Name = name
   member x.Age = age
 ```
+
+[[Exercise x|Exercises]]
