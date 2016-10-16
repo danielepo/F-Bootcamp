@@ -9,7 +9,7 @@ That's because it it's also compatible with the object oriented paradigm but it'
   F# has a better type system than C# where you can express business concepts more easilly than in C#. For example you could declare FizzBuzz type that could either be an int, a Fizz, a Buzz or a FizzBuzz (this types are known as [[Discriminated Unions]])
   Another greate tool that the higher level type system gives us is the powerfull [[Type Inference]]
 - **Concise Syntax**
-  Thanks to the [[Type Inferance]] you don't have to write most of the types declaration you are asked to write in other languages and it feels like you are writting in a Dinamically Typed language.
+  Thanks to the [[Type Inference]] you don't have to write most of the types declaration you are asked to write in other languages and it feels like you are writting in a Dinamically Typed language.
 ```fsharp
   let rec fib =
      function 
