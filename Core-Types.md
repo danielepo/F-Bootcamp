@@ -13,4 +13,17 @@
  * triple-quoted strings: ignores escapes and double quotes for example for working with xml files
 * Character
 
-[[Type Inference]]
+## [[Type Inference]]
+
+## Nullability
+* null almost never used
+ * types definded allow null only if decorated with [<AllowNullLiteral>]
+ * less checks for nulls or null pointer exceptions
+ 
+What to do when somethong doesn't have a value?
+* Option<'T> type:generic [[discriminated union]] with two values Some<'T> and None. 
+The advantage is that's explicit.
+Used also for optional parameters marked with the `?` sign
+
+
+# Generics
