@@ -1,3 +1,13 @@
+* OO focuses on managing a system state: the focus is on building classes and structs
+* FP emphasizes immutability and application of deterministic functions: the focus is on building functions and their inputs and outputs (data trasformation instead of mutation)
+
+* **referential transparency** an expression can be replaced by it's result without affecting the program's behaviour.
+
+## Programming with functions
+
+
+
+
 It's a paradigm that utilizes functions as the main level of abstraction.
 
 It dates back to the 70s with Lisp languages that where definded with a more matemathical concept in mind compared to, say, imperative languages like C which where designed as a level of abstraction over the hardware that it was ment to run.
