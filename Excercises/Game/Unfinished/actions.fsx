@@ -1,6 +1,7 @@
 
-#load "./models.fsx"
-#load "./gameWorld.fsx"
+#load "../Cpre/models.fsx"
+#load "../Core/gameWorld.fsx"
+
 module Actions =
     open Models
     open GameWorld

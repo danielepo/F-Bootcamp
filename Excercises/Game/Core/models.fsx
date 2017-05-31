@@ -30,7 +30,12 @@ type Direction =
     | East
     | West
     | Stay
-
+type Action = 
+    | Look
+    | Moove
+    | Act
+    | Quit
+    | Unknown
 type Room =
     { Id: RoomId
       Details: Details
