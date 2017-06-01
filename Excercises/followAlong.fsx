@@ -18,9 +18,10 @@ let mutable variable  = 5
 variable <- 6
 
 (********************* Exercise 3 *********************)
-(* Define a value and a value resulting from the multiplication of two values
-   try changing it's value
-   Turn the bingding mutable and try again
+(* Define two integer values 
+   Define a value resulting from the multiplication of two previous values
+    - try modifying it
+   Turn the bingding to mutable and try again
    Then try change it with a different type  *)
 //...
 
