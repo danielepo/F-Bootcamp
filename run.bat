@@ -1,1 +1,0 @@
-jingo -c ./config.yaml
